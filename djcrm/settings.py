@@ -83,7 +83,7 @@ DATABASES = {
 }
 
 
-# mysqlclient install failed. Not supported by my OS
+# # mysqlclient install failed. Will investigate later ...
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.mysql',
@@ -92,6 +92,18 @@ DATABASES = {
 #         'PASSWORD': 'rootaniedi',
 #         'HOST': 'localhost',
 #         'PORT': '3306'
+#     }
+# }
+
+# # psycopg2 now installed, works fine
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'tandemcrm',
+#         'USER': 'postgres',
+#         'PASSWORD': 'tandem', 
+#         'HOST': 'localhost',
+#         'PORT': '5433'
 #     }
 # }
 
